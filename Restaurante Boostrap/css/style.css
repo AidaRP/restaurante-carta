@@ -1,0 +1,120 @@
+/* <!-- SLIDER DE IMÁGENES --> */
+.carousel-inner{
+    max-height: 39rem;
+}
+
+@media (max-widht:768px){
+    #intro, #equipo {
+        width: 90%;
+    }
+    #equipo p {
+        display: none;
+    }
+    .servicio-fila{
+        width:100% !important;
+        text-align: center;
+    }
+    #bg-contacto{
+        position: relative;
+        top: -110px;
+    }
+}
+@media(max-width: 576px){
+
+}
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+.Menuses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+/* MAPA */
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+#local{
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+}
+
+/* SECCIÓN EQUIPO RONDA */
+#numeros-local div{
+    padding: 0 20px 0 0;
+    height: 48px;
+}
+#numeros-local div:not(:last-child){
+    border-right: 2px solid #08e408;
+}
+#numeros-local div:not(:first-child){
+    padding: left 20px;
+}
+#numeros-local p{
+    margin:0;
+}
+
+
+@media(max-width:1200px){
+    #local{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+    }
+}
+
+/* CONTACTOS BACKGROUND */
+#bg-contacto{
+    position: relative;
+    top: -130px;
+}
+#seccion-contacto{
+    background-color: 1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+/* FORMULARIO */
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+#titulo-formulario{
+    color: #08e408;
+}
+footer{
+    background: #08e408;
+    min-height: 100px;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
