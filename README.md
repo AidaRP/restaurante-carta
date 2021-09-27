@@ -1,5 +1,3 @@
-# restaurante-carta
-
 # Restaurante
 
 Mi proyecto es una pagina web de un restaurante donde se puede ver su carta.
@@ -9,7 +7,7 @@ Mi proyecto es una pagina web de un restaurante donde se puede ver su carta.
 Para poder obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas puedes hacerlo con :
 
 ```
-https://github.com/AidaRP/restaurante-carta.git
+git clone https://github.com/AidaRP/restaurante-carta.git
 ```
 
 ### Previsualización del proyecto 📋
